@@ -101,12 +101,18 @@ class VideoProcessor(QObject):
             logger.info(f"原视频路径: {input_file}")
             logger.info(f"正在处理: {input_file}")
 
+            # 关键：防止ffmpeg弹出cmd窗口
+            startupinfo = None
+            if hasattr(subprocess, 'STARTUPINFO'):
+                startupinfo = subprocess.STARTUPINFO()
+                startupinfo.dwFlags |= subprocess.STARTF_USESHOWWINDOW
             cmd = [ffmpeg_path, '-i', str(input_file), '-map_metadata', '0', '-c', 'copy', str(tmp_output)]
             result = subprocess.run(
                 cmd,
                 capture_output=True,
                 text=True,
-                encoding='utf-8'  # 指定编码为UTF-8
+                encoding='utf-8',  # 指定编码为UTF-8
+                startupinfo=startupinfo
             )
             if result.returncode != 0:
                 logger.error(f"FFmpeg错误: {result.stderr}")
