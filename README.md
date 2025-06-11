@@ -30,12 +30,14 @@ python3.12.3,使用ffmpeg工具，目前仅支持mp4，win10可用。
 
 
 **处理前的某个视频时长为10:05（实际可能就几秒），大小为4.51MB：**
-![image](https://github.com/user-attachments/assets/21e1ea2b-43a8-4abf-9748-d8296fb1ae17)
 ![image](https://github.com/user-attachments/assets/8bcc22ae-d129-41c6-971d-a0a8b794ebb6)
+![image](https://github.com/user-attachments/assets/21e1ea2b-43a8-4abf-9748-d8296fb1ae17)
+
 
 
 **处理后该视频时长为18秒，大小为4.26MB：**
-![image](https://github.com/user-attachments/assets/ecb0c36e-a62d-4a70-afd4-b9a01976011f)
 ![image](https://github.com/user-attachments/assets/6421ba9f-fe74-4282-be7e-1ccce180fe50)
+![image](https://github.com/user-attachments/assets/ecb0c36e-a62d-4a70-afd4-b9a01976011f)
+
 
 
