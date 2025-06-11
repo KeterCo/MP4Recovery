@@ -11,17 +11,17 @@ python3.12.3,使用ffmpeg工具，目前仅支持mp4，win10可用。
 ![image](https://github.com/user-attachments/assets/78d1b193-3cc3-45e8-82aa-a9a2f1cb8282)
 
 
-示例需要处理的文件夹目录（mp4）：
+**示例需要处理的文件夹目录（mp4）：**
 
 ![image](https://github.com/user-attachments/assets/2b74158d-0923-4fac-bdc4-c760346469f1)
 
-主文件夹（示例里所有文件均包含字幕和配置文件）：
+**主文件夹（示例里所有文件均包含字幕和配置文件）：**
 ![image](https://github.com/user-attachments/assets/8d1af0ff-dacd-476e-af64-6504f2cb1493)
 
-找到23个mp4视频：
+**找到23个mp4视频：**
 ![image](https://github.com/user-attachments/assets/a103c1d4-e259-4fb2-b56f-37c2bc926597)
 
-处理结果：
+**处理结果：**
 ![image](https://github.com/user-attachments/assets/af06d1a3-bc4c-4f72-80d0-74ff69389b18)
 
 
@@ -29,7 +29,13 @@ python3.12.3,使用ffmpeg工具，目前仅支持mp4，win10可用。
 
 
 
-处理前的某个视频时长为2:45（实际可能就几秒），大小为2.66 MB：
+**处理前的某个视频时长为10:05（实际可能就几秒），大小为4.51MB：**
+![image](https://github.com/user-attachments/assets/21e1ea2b-43a8-4abf-9748-d8296fb1ae17)
+![image](https://github.com/user-attachments/assets/8bcc22ae-d129-41c6-971d-a0a8b794ebb6)
 
 
-处理后该视频时长为16秒，大小为2.58MB：
+**处理后该视频时长为18秒，大小为4.26MB：**
+![image](https://github.com/user-attachments/assets/ecb0c36e-a62d-4a70-afd4-b9a01976011f)
+![image](https://github.com/user-attachments/assets/6421ba9f-fe74-4282-be7e-1ccce180fe50)
+
+
